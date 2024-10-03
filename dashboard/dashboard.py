@@ -4,7 +4,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 
 # Load datasets
-order_items = pd.read_csv('sampledata/order_items_dataset.csv')
+order_items = pd.read_csv('dashboard/sampledata/order_items_dataset.csv')
 order_payments = pd.read_csv('sampledata/order_payments_dataset.csv')
 order_reviews = pd.read_csv('sampledata/order_reviews_dataset.csv')
 orders = pd.read_csv('sampledata/orders_dataset.csv')
