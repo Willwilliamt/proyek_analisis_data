@@ -180,9 +180,11 @@ elif selection == "RFM":
     st.title('RFM Analysis (Recency, Frequency, Monetary)')
     st.subheader('RFM Data')
     st.subheader('Analisis RFM bertujuan untuk menemukan 3 aspek')
-    print("Recency: Mengukur berapa lama pelanggan terakhir kali melakukan pembelian.")
-    print("Frequency: Menghitung seberapa sering pelanggan melakukan pembelian.")
-    print("Monetary: Mengukur seberapa banyak pelanggan membelanjakan uang mereka.")
+    st.write("""
+    - **Recency**: Mengukur berapa lama pelanggan terakhir kali melakukan pembelian.
+    - **Frequency**: Menghitung seberapa sering pelanggan melakukan pembelian.
+    - **Monetary**: Mengukur seberapa banyak pelanggan membelanjakan uang mereka.
+    """)
     st.dataframe(rfm_data.head()) 
 
     fig, ax = plt.subplots(figsize=(10, 6))
