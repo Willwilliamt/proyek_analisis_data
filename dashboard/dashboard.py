@@ -4,15 +4,15 @@ import streamlit as st
 import matplotlib.pyplot as plt
 
 # Load datasets
-order_items = pd.read_csv('sampledata/order_items_dataset.csv')
-order_payments = pd.read_csv('sampledata/order_payments_dataset.csv')
-order_reviews = pd.read_csv('sampledata/order_reviews_dataset.csv')
-orders = pd.read_csv('sampledata/orders_dataset.csv')
-products = pd.read_csv('sampledata/products_dataset.csv')
-product_translation = pd.read_csv('sampledata/product_category_name_translation.csv')
-sellers = pd.read_csv('sampledata/sellers_dataset.csv')
-customers = pd.read_csv('sampledata/customers_dataset.csv')
-geolocation = pd.read_csv('sampledata/geolocation_dataset.csv')
+order_items = pd.read_csv('dashboard/sampledata/order_items_dataset.csv')
+order_payments = pd.read_csv('dashboard/sampledata/order_payments_dataset.csv')
+order_reviews = pd.read_csv('dashboard/sampledata/order_reviews_dataset.csv')
+orders = pd.read_csv('dashboard/sampledata/orders_dataset.csv')
+products = pd.read_csv('dashboard/sampledata/products_dataset.csv')
+product_translation = pd.read_csv('dashboard/sampledata/product_category_name_translation.csv')
+sellers = pd.read_csv('dashboard/sampledata/sellers_dataset.csv')
+customers = pd.read_csv('dashboard/sampledata/customers_dataset.csv')
+geolocation = pd.read_csv('dashboard/sampledata/geolocation_dataset.csv')
 
 
 # Streamlit UI Layout
