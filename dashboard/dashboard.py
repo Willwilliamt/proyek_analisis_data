@@ -4,15 +4,15 @@ import streamlit as st
 import matplotlib.pyplot as plt
 
 # Load datasets
-order_items = pd.read_csv('sampledata/order_items_dataset.csv')
-order_payments = pd.read_csv('sampledata/order_payments_dataset.csv')
-order_reviews = pd.read_csv('sampledata/order_reviews_dataset.csv')
-orders = pd.read_csv('sampledata/orders_dataset.csv')
-products = pd.read_csv('sampledata/products_dataset.csv')
-product_category_translation = pd.read_csv('sampledata/product_category_name_translation.csv')
-sellers = pd.read_csv('sampledata/sellers_dataset.csv')
-customers = pd.read_csv('sampledata/customers_dataset.csv')
-geolocation = pd.read_csv('sampledata/geolocation_dataset.csv')
+order_items = pd.read_csv('data/order_items_dataset.csv')
+order_payments = pd.read_csv('data/order_payments_dataset.csv')
+order_reviews = pd.read_csv('data/order_reviews_dataset.csv')
+orders = pd.read_csv('data/orders_dataset.csv')
+products = pd.read_csv('data/products_dataset.csv')
+product_category_translation = pd.read_csv('data/product_category_name_translation.csv')
+sellers = pd.read_csv('data/sellers_dataset.csv')
+customers = pd.read_csv('data/customers_dataset.csv')
+geolocation = pd.read_csv('data/geolocation_dataset.csv')
 st.sidebar.title("Filters")
 
 start_date = st.sidebar.date_input('Start date', pd.to_datetime('2016-02-02'))
